@@ -1,0 +1,103 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+      
+  /* Fixed width container class that will "auto-center" itself */
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* Search Bar */
+  .btn {
+    background-color: rgb(243, 250, 250);
+    color: rgb(55, 187, 187);
+    font-weight: bold;
+    display: inline-block;
+    padding: 16px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 50px;
+    border-style: solid;
+  }
+
+  /* Flexible Columns */
+  .row {
+    display: flex;
+}
+.col {
+    flex: 1;
+    background-color: aqua;
+    padding: 10px;
+    margin: 10px;
+}
+.row2 {
+    display: flex;
+}
+.col2 {
+    flex: 1;
+    background-color: aqua;
+    padding: 10px;
+    margin: 10px;
+}
+.col3 {
+    flex: 2;
+    background-color: aqua;
+    padding: 10px;
+    margin: 10px;
+}
+.row3 {
+    display: flex;
+}
+.col4 {
+    flex: 2;
+    background-color: aqua;
+    padding: 10px;
+    margin: 10px;
+}
+.col5 {
+    flex: 3;
+    background-color: aqua;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Navagation Bar */
+.container {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(73, 72, 72);
+  color: white;
+  font-family: "Roboto", sans-serif;
+    
+}
+
+.nav-links {
+   list-style-type: none; 
+
+}
+a {
+   text-decoration: none;
+   color: white;
+      
+}
+.nav {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   
+}
+li {
+   display: inline-flex;
+   padding: 10px;
+}
+.btn {
+   background-color: rgb(125, 154, 243);
+   box-shadow: black 3px 3px 8px;
+}
+
